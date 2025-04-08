@@ -100,28 +100,29 @@ main {
   }
 }
 .fa-plus-square,
-.fa-calendar-alt {
+iframe + div + div i:first-child {
   padding: 20px;
   color: #4b65b6;
-  font-size: 2em;
+  font-size: 1.5em;
   border: 2px solid white;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.589);
   position: relative;
-  left: 300px;
+  left: 510px;
   box-shadow: -2px 1px 11px 0px #88888859;
   border-radius: 25%;
+  margin: 10px;
 }
 .fa-caret-square-up {
   color: #d35f5f;
   padding: 20px;
-  font-size: 2em;
+  font-size: 1.5em;
   border: 2px solid white;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.589);
   position: relative;
-  left: 50px;
   box-shadow: -2px 1px 11px 0px #88888859;
   border-radius: 25%;
-  left: 300px;
+  left: 510px;
+  margin: 10px;
 }
 
 section {
@@ -352,6 +353,18 @@ aside div {
   border: 1px solid #c3c3c3;
   margin-bottom: 1em;
   padding: 1em;
+}
+aside div {
+  position: relative;
+}
+aside > div > i {
+  position: absolute;
+  bottom: 55px;
+  left: 970px;
+  z-index: 2;
+  font-size: 4em;
+  color: #cdcdcd;
+  position: sticky;
 }
 
 @media screen and (min-width: 1200px) {
