@@ -93,12 +93,35 @@ main {
   box-shadow: 0 3px 3px #444;
   padding: 2em 1em;
   margin-bottom: 1.5em;
-  margin-top: 215px;
 }
 @media screen and (min-width: 700px) {
   main {
     padding: 2em;
   }
+}
+.fa-plus-square,
+.fa-calendar-alt {
+  padding: 20px;
+  color: #4b65b6;
+  font-size: 2em;
+  border: 2px solid white;
+  background-color: white;
+  position: relative;
+  left: 300px;
+  box-shadow: -2px 1px 11px 0px #88888859;
+  border-radius: 25%;
+}
+.fa-caret-square-up {
+  color: #d35f5f;
+  padding: 20px;
+  font-size: 2em;
+  border: 2px solid white;
+  background-color: white;
+  position: relative;
+  left: 50px;
+  box-shadow: -2px 1px 11px 0px #88888859;
+  border-radius: 25%;
+  left: 300px;
 }
 
 section {
